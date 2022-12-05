@@ -9,4 +9,5 @@ import { HEROES } from '../hero'
 export class HeroParentComponent{
     heroes = HEROES;
     master = "master";
+    number: number = 12345;
 }

@@ -9,4 +9,5 @@ import {Hero} from '../hero'
 export class HeroChildComponent{
     @Input() singleHero!: Hero;
     @Input('master') masterName = '';
+    @Input('number') number = 0;
 }

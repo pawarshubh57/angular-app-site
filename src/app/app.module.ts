@@ -8,6 +8,9 @@ import { HelloWorldNgIfComponent } from './HelloWorld/hello-world-ngif/hello-wor
 import { HelloWorldComponent } from './HelloWorld/helloworld.component';
 import { HeroChildComponent } from './hero/hero-child.component';
 import { HeroParentComponent } from './hero/hero-parent.component';
+import { NameChildComponent } from './hero/name-child.component';
+import { NameParentComponent } from './hero/name-parent.component';
+import { VersionChildComponent } from './hero/version-child.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HeroParentComponent } from './hero/hero-parent.component';
     HelloWorldBindingsComponent,
     HelloWorldNgIfComponent,
     HeroChildComponent,
-    HeroParentComponent
+    HeroParentComponent,
+    NameParentComponent,
+    NameChildComponent,
+    VersionChildComponent
   ],
   imports: [
     BrowserModule,
