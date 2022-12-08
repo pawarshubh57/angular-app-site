@@ -1,0 +1,12 @@
+ :host {
+    font-style: italic;
+    color: green;
+}
+:host(.active) {
+    font-weight: bold;
+   
+} 
+
+/* :host ::ng-deep p {
+    font-style: italic;
+} */
